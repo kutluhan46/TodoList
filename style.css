@@ -7,6 +7,8 @@ body{
     width: 100%;
     text-align: center;
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 #title{
@@ -39,7 +41,23 @@ body{
     text-align: center;
     border-radius: 15px;
 }
-
+#consoleBas{
+    height: 45px;
+    width: 210px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color:firebrick;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+#consoleBas:active{
+    background-color: white;
+    color: black;
+}
 #addToDo:active{
     background: blue;
 }
